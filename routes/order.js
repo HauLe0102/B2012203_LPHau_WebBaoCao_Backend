@@ -32,25 +32,5 @@ router.get("/findOrder/:id", API_order.findorderwithID);
 //Get data order with status order
 router.get("/filterStatusOrder/:name", API_order.getorderwithstatusorder);
 
-// //Get One Product
-// router.get("/find/:id", API_product.findoneProduct);
-
-// //Find Product With Name Product
-// router.get("/findProduct/:nameproduct", API_product.findproductwithName);
-
-// //Get All Product
-// router.get("/", API_product.getAllProduct);
-
-// //Get Product With Limit Document
-// router.get("/limit", API_product.getProductLimit);
-
-// //Get Category Product with name
-// router.get("/categoryBook/:name", API_product.getcategoryProduct);
-
-// //Get Product with ID
-// router.get("/editBook/:id", API_product.getproductwithID);
-
-// //Get product withd id anywhere
-// router.get("/:id", API_product.getwithID);
 
 module.exports = router;
